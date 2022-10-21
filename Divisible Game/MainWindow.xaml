@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Label Content="Divisible Game" HorizontalAlignment="Left" TextBoxBase.TextChanged="Timer_TextChanged" TextBlock.FontSize="50" Margin="200,144,0,0" VerticalAlignment="Top" Height="104" Width="362"/>
+        <Button x:Name="Play" Content="Play" HorizontalAlignment="Left" Margin="296,253,0,0" VerticalAlignment="Top" Width="160" Height="70" BorderBrush="Aquamarine" Background="Aquamarine" FontWeight="Bold" FontSize="36" Cursor="Pen"/>
+
     </Grid>
 </Window>

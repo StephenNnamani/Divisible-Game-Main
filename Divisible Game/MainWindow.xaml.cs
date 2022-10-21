@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media;
 
 namespace Divisible_Game
 {
@@ -20,9 +21,16 @@ namespace Divisible_Game
     /// </summary>
     public partial class MainWindow : Window
     {
+        ImageSource 
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void Label_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
     }
 }
